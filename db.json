@@ -2,39 +2,72 @@
   "contratos": [
     {
       "id": 1,
-      "numero": "laptop",
-      "estado": 1599.99,
-      "nrocuota": "HP Laptop",
-      "certificado": "HP Laptop",
+      "numero": "8120.008.02",
+      "estado": "Adjudicado",
+      "nrocuota": "61 de 61",
+      "certificado": "$ 20,000.00",
       "clienteId": 1
     },
     {
       "id": 2,
-      "numero": "laptop",
-      "estado": 1599.99,
-      "nrocuota": "HP Laptop",
-      "certificado": "HP Laptop",
+      "numero": "8121.008.01",
+      "estado": "No Adjudicado",
+      "nrocuota": "30 de 80",
+      "certificado": "$ 70,000.00",
       "clienteId": 1
     },
     {
       "id": 3,
-      "numero": "laptop",
-      "estado": 1599.99,
-      "nrocuota": "HP Laptop",
-      "certificado": "HP Laptop",
+      "numero": "8122.010.01",
+      "estado": "No Adjudicado",
+      "nrocuota": "30 de 80",
+      "certificado": "$ 70,000.00",
       "clienteId": 2
+    }
+  ],
+  "asambleas": [
+    {
+      "id": 1,
+      "fechaasamblea": "21/09/2022 09:00",
+      "contrato": "8120.008.02",
+      "certificado": "$ 20,000.00",      
+      "contratoId": 1
+    },
+    {
+      "id": 2,
+      "fechaasamblea": "21/09/2022 10:00",
+      "contrato": "8121.008.01",
+      "certificado": "$ 70,000.00",      
+      "contratoId": 2
+    },
+	{
+      "id": 3,
+      "fechaasamblea": "21/09/2022 10:30",
+      "contrato": "8122.010.01",
+      "certificado": "$ 70,000.00",      
+      "contratoId": 3
     }
   ],
   "cliente": [
     {
       "id": "1",
-      "nombre": "computers",
-      "email": "computers, laptops, monitors, etc"
+	  "dni": "41125976",
+      "nombre": "FLORES CALDERON, CYNTHIA MAGALY",
+      "email": "cmflores@opcion.com.pe",
+	  "telefono": "991828060",
+	  "direccion": "JR. FEDERICO UGARTE N° 283",
+	  "urbanzicacion": "PAMPLONA BAJA",
+	  "distrito": "SAN JUAN DE MIRAFLORES, LIMA, LIMA"
     },
     {
-      "id": "2",
-      "nombre": "gaming",
-      "email": "mouse, monitors, keyboards etc"
+      "id": "1",
+	  "dni": "41225875",
+      "nombre": "CORIMANYA VALENCIA, AMED",
+      "email": "cacorimanya@opcion.com.pe",
+	  "telefono": "990666555",
+	  "direccion": "JR. FEDERICO UGARTE N° 283",
+	  "urbanzicacion": "PAMPLONA BAJA",
+	  "distrito": "SAN JUAN DE MIRAFLORES, LIMA, LIMA"
     }
   ]
 }
