@@ -5,20 +5,23 @@
       "numero": "laptop",
       "estado": 1599.99,
       "nrocuota": "HP Laptop",
+      "certificado": "HP Laptop",
       "clienteId": 1
     },
     {
       "id": 2,
-      "name": "monitor",
-      "price": 199.99,
-      "description": "Monitor LCD LG",
+      "numero": "laptop",
+      "estado": 1599.99,
+      "nrocuota": "HP Laptop",
+      "certificado": "HP Laptop",
       "clienteId": 1
     },
     {
       "id": 3,
-      "numero": "mouse",
-      "estado": 20,
-      "nrocuota": "Razer Gaming Mouse",
+      "numero": "laptop",
+      "estado": 1599.99,
+      "nrocuota": "HP Laptop",
+      "certificado": "HP Laptop",
       "clienteId": 2
     }
   ],
