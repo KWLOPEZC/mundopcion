@@ -1,44 +1,37 @@
 {
-  "products": [
+  "contratos": [
     {
       "id": 1,
-      "name": "laptop",
-      "price": 1599.99,
-      "description": "HP Laptop",
-      "categoryId": 1
+      "numero": "laptop",
+      "estado": 1599.99,
+      "nrocuota": "HP Laptop",
+      "clienteId": 1
     },
     {
       "id": 2,
       "name": "monitor",
       "price": 199.99,
       "description": "Monitor LCD LG",
-      "categoryId": 1
+      "clienteId": 1
     },
     {
       "id": 3,
-      "name": "mouse",
-      "price": 20,
-      "description": "Razer Gaming Mouse",
-      "categoryId": 2
-    },
-    {
-      "name": "keyboard",
-      "price": "399.00",
-      "description": "gaming keyboard",
-      "categoryId": 2,
-      "id": 4
+      "numero": "mouse",
+      "estado": 20,
+      "nrocuota": "Razer Gaming Mouse",
+      "clienteId": 2
     }
   ],
-  "categories": [
+  "cliente": [
     {
       "id": "1",
-      "name": "computers",
-      "description": "computers, laptops, monitors, etc"
+      "nombre": "computers",
+      "email": "computers, laptops, monitors, etc"
     },
     {
       "id": "2",
-      "name": "gaming",
-      "description": "mouse, monitors, keyboards etc"
+      "nombre": "gaming",
+      "email": "mouse, monitors, keyboards etc"
     }
   ]
 }
