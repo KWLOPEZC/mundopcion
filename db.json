@@ -52,6 +52,7 @@
     {
       "id": "1",
 	  "dni": "41125976",
+      "pass":"444444",
       "nombre": "FLORES CALDERON, CYNTHIA",
       "email": "cmflores@opcion.com.pe",
 	  "telefono": "991828060",
@@ -62,6 +63,7 @@
     {
       "id": "2",
 	  "dni": "41225875",
+	    "pass":"555555",
       "nombre": "CORIMANYA VALENCIA, AMED",
       "email": "cacorimanya@opcion.com.pe",
 	  "telefono": "990666555",
